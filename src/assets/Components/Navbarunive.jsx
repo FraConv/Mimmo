@@ -26,18 +26,18 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[95px]" : "mt-[-200px]" );
 
 
 <ul className=" grid grid-cols-3 border-transparent mt-[30px] max-[1000px]:hidden bg-none z-40 fixed">
-<Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black" to="/">
+<Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black xl:ml-[695px]" to="/">
 <li className="text-[20px]">Home</li>
 </Link>
-<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black" to="/Raspberry">
+<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px]" to="/Raspberry">
 <li className="text-[20px]">Raspberry</li>
 </Link>
-<Link className="w-2 ml-[450px] border-transparent text-black hover:text-black" to="/Python">
+<Link className="w-2 ml-[450px] border-transparent text-black hover:text-black xl:ml-[250px]" to="/Python">
 <li className="text-[20px]">Python</li>
 </Link>
 </ul>
 
-<div className=" w-[600px] h-10 bg-[#f9b65d] ml-[1175px] mt-[25px] skew-x-[400deg] rounded-md fixed z-30"></div>
+<div className=" w-[600px] h-10 bg-[#f9b65d] ml-[1175px] mt-[25px] skew-x-[400deg] xl:ml-[630px] rounded-md fixed z-30"></div>
 
 <div className="grid grid-rows-3 fixed z-40 right-6 top-9 w-10 h-10 xl:hidden" onClick={click}>
 <div className="bg-[#e2b330] w-7 h-1 rounded-full mt-[3px]"></div>
@@ -47,7 +47,7 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[95px]" : "mt-[-200px]" );
 
 <ul className={`grid grid-rows-3  mt-[-200px] bg-[#22121b] w-[100%] h-28 left-0 fixed z-10 p-1 xl:hidden transition-all duration-500 ${menu}`}>
 <Link className="text-white hover:text-white" to="/">
-<li className="ml-[-332px] p-[5px] min-[375px]:ml-[-300px] md:ml-[-629px]">Home</li>
+<li className="ml-[-332px] p-[5px] min-[375px]:ml-[-300px] md:ml-[-629px] hover:text-black">Home</li>
 </Link>
 <Link className="text-white hover:text-white" to="/Raspberry">
 <li className="ml-[-302px] p-[5px] min-[375px]:ml-[-270px] md:ml-[-600px]">Raspberry</li>
