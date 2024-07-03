@@ -16,7 +16,7 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[95px]" : "mt-[-200px]" );
     
 <header className=" w-[100%] h-16 left-0 top-0 fixed bg-[#2b1f26]   xl:h-50">
 
-<div className=" w-[100%] h-24 left-0 top-0 fixed z-40 bg-[#2b1f26] xl:h-50 xl:hidden"></div>
+<div className=" w-[100%] h-24 left-0 top-0 fixed z-10 bg-[#2b1f26] xl:h-20"></div>
 
 
 <Link to="/">

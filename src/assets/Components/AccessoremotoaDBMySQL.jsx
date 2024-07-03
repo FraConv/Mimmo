@@ -8,12 +8,12 @@ function AccessoremotoaDBMySQL(){
         
         <Navbarunive></Navbarunive>
 
-<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[160px] xl:ml-[-300px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px] ">
+<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[160px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px] ">
 <h1 className=" text-[44px] mt-[-20px] xl:text-[72px] text-left md:text-[55px]">Accesso remoto a DB MySQL</h1>
 </div>
 
 
-<div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[3050px]  md:mt-[200px]">
+<div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[3050px]  md:mt-[200px]">
 <p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
 <br />
 <br />
@@ -72,7 +72,7 @@ Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuiti
 procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni.</p>
 </div>
 
-<div className=" w-[300px] h-[160px] ml-[-65px] mt-12 border-2 border-transparent xl:ml-[-300px] xl:w-[480px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px]">
+<div className=" w-[300px] h-[160px] ml-[-65px] mt-12 border-2 border-transparent xl:ml-[-100px] xl:w-[480px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px]">
 <img src="Cattura6.png" alt="" />
 </div>
 
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     connect()</h5></div>
 
 <footer className=" w-[100%] h-24  left-0 mt-[200px] absolute bg-[#1b4455] z-40">
-<h6 className=" scale-90 mt-[36px] ml-[-110px] xl:ml-[-1500px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
+<h6 className=" scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
 </footer>
 
 
