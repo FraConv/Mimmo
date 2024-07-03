@@ -40,8 +40,8 @@ dhcpcd.conf che si trova nella directory etc editando il seguente comando:
 </p>
 </div>
 
-<div className=" w-[300px] h-[50px] bg-slate-700 mt-10 ml-[-65px] rounded-2xl xl:ml-[-300px] xl:mt-[120px] xl:w-[480px] xl:h-[50px] xl:rounded-[20px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
-<h5 className="text-left ml-5 xl:pt-[13px] md:pt-[13px]">
+<div className=" w-[300px] h-[50px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-2xl xl:ml-[-300px] xl:mt-[120px] xl:w-[480px] xl:h-[50px] xl:rounded-[20px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
+<h5 className="text-left ml-5 xl:pt-[10px] md:pt-[10px] text-[13px] pt-[10px] xl:text-[17px] md:text-[17px]">
 pi@raspberrypi:~ $ sudo nano /etc/dhcpcd.conf</h5></div>
 
 <div className=" border-2 border-transparent w-[300px] h-[520px] xl:w-[650px] xl:h-[520px] mt-16 ml-[-65px] xl:ml-[-300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[680px]">
@@ -58,8 +58,8 @@ pi@raspberrypi: static domain_name_servers=192.xxx.xxx.xxx (indirizzo IP del mod
 </p>
 </div>
 
-<div className=" w-[300px] h-[185px] bg-slate-700 mt-10 ml-[-65px] rounded-[30px] xl:ml-[-300px] xl:mt-[120px] xl:w-[480px] xl:h-[180px] xl:rounded-[50px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
-<h5 className="text-left ml-5 pt-2 xl:pt-4 xl:ml-8 md:pt-[17px]">
+<div className=" w-[300px] h-[185px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-[30px] xl:ml-[-300px] xl:mt-[120px] xl:w-[480px] xl:h-[180px] xl:rounded-[50px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
+<h5 className="text-left ml-5 xl:pt-2 xl:ml-8 md:pt-[15px] text-[15px] pt-[10px] xl:text-[17px] md:text-[17px]">
 # Example static IP configuration:
 #interface eth0
 <br />

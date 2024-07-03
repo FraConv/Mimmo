@@ -94,7 +94,7 @@ Lo script fa una cosa semplicissima ma sintetizza in poche linee di codice l'acc
 tutte le tabelle che sono al suo interno; approfondendo l'argomento è possibile creare e cancellare tabelle, inserire dati nelle tabelle e quant'altro.</p>
 </div>
 
-<div className=" w-[300px] h-[850px] bg-slate-700 mt-10 ml-[-65px] rounded-[50px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px]">
+<div className=" w-[300px] h-[850px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-[50px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px]">
     <h5 className="text-left ml-5 p-5 xl:ml-9">import mysql.connector
     <br />
     <br />

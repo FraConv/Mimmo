@@ -21,7 +21,7 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[95px]" : "mt-[-200px]" )
 
 
 <Link to="/">
-<img className=" mt-[11px] z-40 fixed w-[73px] h-[73px] ml-[18px] " src="Mimmo.svg" alt="" />
+<img className=" mt-[11px] z-40 fixed w-[73px] h-[73px] ml-[18px] " src="Mimmo Logo.svg" alt="" />
 </Link>
 
 
