@@ -27,18 +27,18 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[45px]" : "mt-[-200px]" )
 
 
 <ul className=" grid grid-cols-3 border-transparent mt-[30px] max-[1000px]:hidden bg-none z-40 fixed">
-<Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black xl:ml-[695px] min-[1400px]:ml-[1180px] min-[1400px]:mt-[-50px]" to="/">
+<Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black xl:ml-[695px] min-[1400px]:ml-[1180px] min-[1400px]:mt-[-50px] xl:mt-[-50px]" to="/">
 <li className="text-[20px]">Home</li>
 </Link>
-<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px] min-[1400px]:ml-[730px] min-[1400px]:mt-[-50px]" to="/Raspberry">
+<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px] min-[1400px]:ml-[730px] min-[1400px]:mt-[-50px] xl:mt-[-50px]" to="/Raspberry">
 <li className="text-[20px]">Raspberry</li>
 </Link>
-<Link className="w-2 ml-[450px] border-transparent text-black hover:text-black xl:ml-[250px] min-[1400px]:ml-[370px] min-[1400px]:mt-[-50px]" to="/Python">
+<Link className="w-2 ml-[450px] border-transparent text-black hover:text-black xl:ml-[250px] min-[1400px]:ml-[370px] min-[1400px]:mt-[-50px] xl:mt-[-50px]" to="/Python">
 <li className="text-[20px]">Python</li>
 </Link>
 </ul>
 
-<div className=" w-[600px] h-10 bg-[#f9b65d] ml-[1175px] mt-[25px] skew-x-[400deg] xl:ml-[630px] min-[1400px]:ml-[1130px] rounded-md fixed z-30 min-[1400px]:mt-[-25px]"></div>
+<div className=" w-[600px] h-10 bg-[#f9b65d] ml-[1175px] mt-[25px] skew-x-[400deg] xl:ml-[630px] xl:mt-[-25px] min-[1400px]:ml-[1130px] rounded-md fixed z-30 min-[1400px]:mt-[-25px]"></div>
 
 <div className="grid grid-rows-3 fixed z-40 right-6 top-9 w-10 h-10 xl:hidden" onClick={click}>
 <div className="bg-[#f9b65d] w-7 h-1 rounded-full mt-[3px]"></div>
