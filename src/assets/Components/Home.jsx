@@ -1,5 +1,7 @@
 import Footer from "./Footer"
 import Loader from "./Loader"
+import MatrixCode from "./Matrixcode"
+import MatrixCode2 from "./Matrixcode2"
 import Navbar from "./Navbar"
 
 function Home(){
@@ -11,6 +13,11 @@ function Home(){
 <Loader></Loader>
 
 <Navbar></Navbar>
+
+
+<div className="ml-[-900px] mt-[-253px] xl:mt-[-300px] xl:ml-[-100px] min-[1400px]:ml-[184px] md:ml-[-100px] fixed">
+<MatrixCode></MatrixCode>
+</div>
 
 <div className=" fixed left-0 w-[100%] h-[60%] mt-[-65px] bg-gradient-to-t from-black">
     <h1 className=" min-[360px]:text-[50px] text-white md:text-[45px] min-[375px]:text-[35px] min-[375px]:mt-[40px] xl:ml-[35px] min-[1400px]:ml-[35px] ml-[22px] text-left text min-[412px]:mt-[-50px] min-[412px]:text-[40px] leading-[43px] min-[390px]:text-[43px] 

@@ -30,7 +30,7 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[45px]" : "mt-[-200px]" )
 <Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black xl:ml-[695px] min-[1400px]:ml-[1180px] min-[1400px]:mt-[-50px] xl:mt-[-50px]  " to="/">
 <li className="text-[20px]">Home</li>
 </Link>
-<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px] min-[1400px]:ml-[745px] min-[1400px]:mt-[-50px] xl:mt-[-50px] min-[1351px]:ml-[420px]" to="/Raspberry">
+<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px] min-[1400px]:ml-[740px] min-[1400px]:mt-[-50px] xl:mt-[-50px] min-[1351px]:ml-[420px]" to="/Raspberry">
 <li className="text-[20px]">Raspberry</li>
 </Link>
 <Link className="w-2 ml-[450px] border-transparent text-black hover:text-black xl:ml-[250px] min-[1400px]:ml-[370px] min-[1400px]:mt-[-50px] xl:mt-[-50px] min-[1351px]:ml-[190px]" to="/Python">
@@ -46,7 +46,7 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[45px]" : "mt-[-200px]" )
 <div className="bg-[#f9b65d] w-3 h-1 rounded-full mt-[-3px] ml-4"></div>
 </div>
 
-<ul className={`grid grid-rows-3  mt-[-200px] bg-[#22121b] w-[100%] h-28 left-0 fixed z-10 p-1 xl:hidden transition-all duration-500 ${menu}`}>
+<ul className={`grid grid-rows-3  mt-[-200px] bg-[#22121b] min-[414px]:h-[100px] w-[100%] h-28 left-0 fixed z-30 p-1 xl:hidden transition-all duration-500 ${menu}`}>
 <Link className="text-white hover:text-white" to="/">
 <li className="ml-[-332px] p-[5px] min-[375px]:ml-[-300px] md:ml-[-645px]">Home</li>
 </Link>

@@ -13,7 +13,7 @@ function AccessoremotoaDBMySQL(){
 </div>
 
 
-<div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[4250px]  md:mt-[200px]">
+<div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[2390px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[4250px]  min-[1400px]:h-[2395px] md:mt-[200px]">
 <p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
 <br />
 <br />
