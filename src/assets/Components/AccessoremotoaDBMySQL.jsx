@@ -13,8 +13,8 @@ function AccessoremotoaDBMySQL(){
 </div>
 
 
-<div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[3050px]  md:mt-[200px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
+<div className=" border-2 border-black w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[4250px]  md:mt-[200px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
 <br />
 <br />
 Per accedere al DB residente nel RaspBerry da un dispositivo remoto è necessario creare un accesso che sia diverso
@@ -76,8 +76,8 @@ procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni
 <img src="Cattura6.png" alt="" />
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[200px] xl:w-[650px] xl:h-[180px] mt-44 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[250px]  md:mt-[200px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuitivo evitando di 
+<div className=" border-2 border-black w-[300px] h-[200px] xl:w-[650px] xl:h-[180px] mt-44 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[450px]  md:mt-[200px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuitivo evitando di 
 seguire la procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni.</p>
 </div>
 
@@ -85,8 +85,8 @@ seguire la procedura descritta sopra, selezionando i privilegi che riteniamo pi�
 <img src="creare-1666464546829.jpg" alt="" />
 </div>
 
-<div className=" border-2 border-transparent k w-[300px] h-[450px] xl:w-[650px] xl:h-[450px] mt-44 ml-[-65px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[650px]  md:mt-[200px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Qui sotto ho inserito un semplice script in python che utilizza la libreria mysql connector 
+<div className=" border-2 border-black k w-[300px] h-[450px] xl:w-[650px] xl:h-[450px] mt-44 ml-[-65px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[890px]  md:mt-[200px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Qui sotto ho inserito un semplice script in python che utilizza la libreria mysql connector 
 (da scaricare con pip install mysql-connector-python).
 <br />
 <br />
@@ -94,8 +94,8 @@ Lo script fa una cosa semplicissima ma sintetizza in poche linee di codice l'acc
 tutte le tabelle che sono al suo interno; approfondendo l'argomento è possibile creare e cancellare tabelle, inserire dati nelle tabelle e quant'altro.</p>
 </div>
 
-<div className=" w-[300px] h-[850px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-[50px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px]">
-    <h5 className="text-left ml-5 p-5 xl:ml-9">import mysql.connector
+<div className=" w-[300px] h-[520px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-[80px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[400px]  md:h-[550px] md:ml-[-200px]">
+    <h5 className="text-left text-[10px] xl:pt-[70px] ml-7 pt-5 md:text-[11px] xl:ml-9 xl:text-[13px]">import mysql.connector
     <br />
     <br />
 from mysql.connector import MySQLConnection, Error
@@ -152,7 +152,7 @@ if __name__ == '__main__':
     connect()</h5></div>
 
 <footer className=" w-[100%] h-24  left-0 mt-[200px] absolute bg-[#1b4455] z-40">
-<h6 className=" scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
+<h6 className=" min-[1400px]:ml-[-1410px] scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
 </footer>
 
 

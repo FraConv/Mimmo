@@ -13,12 +13,12 @@ function WebServerconRaspberry(){
 <h1 className=" text-[44px] mt-[-20px] xl:text-[72px] text-left md:text-[55px]">Web Server con Raspberry</h1>
 </div>
 
-<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[32px] xl:ml-[-100px] xl:mt-[100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
+<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[72px] xl:ml-[-100px] xl:mt-[100px] min-[375px]:ml-[-50px]  md:mt-[150px]  md:w-[390px] md:ml-[-200px]">
 <h3 className=" md:text-[40px] text-[30px] mt-[80px] xl:text-[47px] text-left">Di cosa hai bisogno</h3>
 </div>
 
 <div className=" border-2 border-transparent w-[300px] h-[100px] xl:w-[650px] xl:h-[130px] mt-28 ml-[-65px] xl:ml-[-100px] xl:mt-[160px] min-[375px]:ml-[-50px]  md:w-[390px] md:ml-[-200px]">
-<p className=" md:text-[27px] mt-[-8px] xl:text-[25px] text-left">Raspberry PI zero 2
+<p className=" md:text-[27px] text-[16px] mt-[-8px] xl:text-[25px] text-left">Raspberry PI zero 2
     <br />
 Alimentatore 5V per Raspberry (2A)
 <br />
@@ -29,23 +29,23 @@ Micro SD (16 GB) (2A)</p>
 <h3 className=" md:text-[40px] text-[30px] mt-[80px] xl:text-[47px] text-left">OS Lite</h3>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[200px] xl:w-[650px] xl:h-[200px] mt-28 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[300px]">
-<p className="  md:text-[27px] text-[20px] mt-[-8px] xl:text-[25px] text-left">Dopo aver installato l'OS Lite sulla micro SD, è necessario impostare il Raspberry con indirizzo IP statico e quello del gateway
+<div className=" border-2 border-black w-[300px] h-[200px] xl:w-[650px] xl:h-[200px] mt-28 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[460px]">
+<p className="  md:text-[27px] text-[16px] mt-[-8px] xl:text-[25px] text-left">Dopo aver installato l'OS Lite sulla micro SD, è necessario impostare il Raspberry con indirizzo IP statico e quello del gateway
 che corrisponde all'indirizzo del modem, ciò ci permetterà di accedere dall'esterno;</p>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[120px] xl:w-[650px] xl:h-[130px] mt-5 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[180px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> tali configurazioni, devono essere fatte nel file
+<div className=" border-2 border-black w-[300px] h-[120px] xl:w-[650px] xl:h-[130px] mt-5 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[280px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> tali configurazioni, devono essere fatte nel file
 dhcpcd.conf che si trova nella directory etc editando il seguente comando:
 </p>
 </div>
 
-<div className=" w-[300px] h-[50px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-2xl xl:ml-[-100px] xl:mt-[120px] xl:w-[480px] xl:h-[50px] xl:rounded-[20px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
-<h5 className="text-left ml-5 xl:pt-[10px] md:pt-[10px] text-[13px] pt-[10px] xl:text-[17px] md:text-[17px]">
+<div className=" w-[300px] h-[50px] border-[4px] border-transparent bg-slate-700 mt-10 ml-[-65px] rounded-2xl xl:ml-[-100px] xl:mt-[120px] xl:w-[480px] xl:h-[50px] xl:rounded-[20px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
+<h5 className="text-left ml-3 xl:pt-[10px] md:pt-[10px] text-[10px] pt-[10px] xl:text-[17px] md:text-[13px]">
 pi@raspberrypi:~ $ sudo nano /etc/dhcpcd.conf</h5></div>
 
-<div className=" border-2 border-transparent w-[300px] h-[520px] xl:w-[650px] xl:h-[520px] mt-16 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[680px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Scorrere lo script ed eliminare i commenti sulle righe che riguardano l'indirizzo IP statico:
+<div className=" border-2 border-black w-[300px] h-[420px] xl:w-[650px] xl:h-[620px] mt-16 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[920px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Scorrere lo script ed eliminare i commenti sulle righe che riguardano l'indirizzo IP statico:
 <br />
 <br />
 pi@raspberrypi: static ip_address=192.xxx.xxx.xxx (indirizzo IP che desiderate associare al Raspberry)
@@ -58,8 +58,8 @@ pi@raspberrypi: static domain_name_servers=192.xxx.xxx.xxx (indirizzo IP del mod
 </p>
 </div>
 
-<div className=" w-[300px] h-[185px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-[30px] xl:ml-[-100px] xl:mt-[120px] xl:w-[480px] xl:h-[180px] xl:rounded-[50px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
-<h5 className="text-left ml-5 xl:pt-2 xl:ml-8 md:pt-[15px] text-[15px] pt-[10px] xl:text-[17px] md:text-[17px]">
+<div className=" w-[310px] h-[145px] border-[4px] border-transparent bg-slate-700 mt-10 ml-[-65px] rounded-[30px] xl:ml-[-100px] xl:mt-[120px] xl:w-[480px] xl:h-[210px] xl:rounded-[50px] min-[375px]:ml-[-50px] md:w-[390px] md:h-[250px] md:ml-[-200px]">
+<h5 className="text-left ml-5 xl:pt-2 xl:ml-8 md:pt-[15px] text-[10px] pt-[10px] xl:text-[17px] md:text-[17px]">
 # Example static IP configuration:
 #interface eth0
 <br />
@@ -73,8 +73,8 @@ static routers=192.168.x.x
 <br />
 static domain_name_servers=192.168.x.x</h5></div>
 
-<div className=" border-2 border-transparent w-[300px] h-[540px] xl:w-[650px] xl:h-[590px] mt-16 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[725px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Fatto questo, salvate e riavviate il Raspberry con il comando:
+<div className=" border-2 border-black w-[300px] h-[540px] xl:w-[650px] xl:h-[590px] mt-16 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[1125px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Fatto questo, salvate e riavviate il Raspberry con il comando:
 <br />
 <br />
 pi@raspberrypi: sudo reboot
@@ -98,8 +98,8 @@ Attendere che il tutto venga aggiornato; ci potrebbe impiegare alcuni minuti.
 <h3 className=" text-[30px] mt-[80px] xl:text-[47px] text-left md:text-[40px]">Installazione Apache</h3>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[880px] xl:w-[660px] xl:h-[930px] mt-40 ml-[-65px] xl:ml-[300px] xl:mt-[200px] min-[375px]:ml-[-50px]  md:w-[390px] md:ml-[-200px] md:h-[1325px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Molto semplicemente per installare l'Apache, dare il comando seguente:
+<div className=" border-2 border-black w-[300px] h-[880px] xl:w-[660px] xl:h-[930px] mt-40 ml-[-65px] xl:ml-[300px] xl:mt-[200px] min-[375px]:ml-[-50px]  md:w-[390px] md:ml-[-200px] md:h-[1700px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Molto semplicemente per installare l'Apache, dare il comando seguente:
 <br />
 <br />
 pi@raspberrypi: sudo apt install apache2
@@ -129,8 +129,8 @@ Controlleremo se il tutto funziona dopo aver installato l'interprete PHP.
 <h3 className=" text-[30px] mt-[80px] xl:text-[47px] text-left md:text-[40px]">Installazione PHP</h3>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[550px] xl:w-[650px] xl:h-[600px] mt-40 ml-[-65px] xl:ml-[300px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[780px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Per installare il PHP digitiamo il seguente comando:
+<div className=" border-2 border-black w-[300px] h-[550px] xl:w-[650px] xl:h-[600px] mt-40 ml-[-65px] xl:ml-[300px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[1000px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Per installare il PHP digitiamo il seguente comando:
 <br />
 <br />
 pi@raspberrypi: sudo apt install php php-mbstring
@@ -151,8 +151,8 @@ all'interno del file inseriamo:
 <img src="php.svg" alt="" />
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[50px] xl:w-[650px] xl:h-[80px] mt-16 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[100px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Salvare il tutto con "Ctrl + X", confermiamo con "Y" + "Invio".
+<div className=" border-2 border-black w-[300px] h-[50px] xl:w-[650px] xl:h-[80px] mt-16 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[100px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Salvare il tutto con "Ctrl + X", confermiamo con "Y" + "Invio".
 </p>
 </div>
 
@@ -160,8 +160,8 @@ all'interno del file inseriamo:
 <h3 className=" text-[30px] mt-[80px] xl:text-[47px] text-left md:text-[40px]">Verifica del funzionamento</h3>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[550px] xl:w-[650px] xl:h-[500px] mt-40 ml-[-65px] xl:ml-[300px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[720px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left  md:text-[27px]"> Ora possiamo verificare che tutto il lavoro fatto fino ad ora sia andato a buon fine. 
+<div className=" border-2 border-black w-[300px] h-[550px] xl:w-[650px] xl:h-[600px] mt-40 ml-[-65px] xl:ml-[300px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[1060px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left  md:text-[27px]"> Ora possiamo verificare che tutto il lavoro fatto fino ad ora sia andato a buon fine. 
 <br />
 <br />
 Per fare cio' basta semplicemente aprire un browser
@@ -182,8 +182,8 @@ My Server che ci restituisce il comando echo inserito nel file index.php che abb
 <h3 className=" text-[30px] mt-[80px] xl:text-[47px] text-left md:text-[40px]">Installazione di MySQL</h3>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[1900px] xl:w-[650px] xl:h-[1730px] mt-40 ml-[-65px] xl:ml-[-100px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[2690px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Eseguiamo il seguente comando:
+<div className=" border-2 border-black w-[300px] h-[1900px] xl:w-[650px] xl:h-[2130px] mt-40 ml-[-65px] xl:ml-[-100px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[3790px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> Eseguiamo il seguente comando:
 <br />
 <br />
 pi@raspberrypi: sudo apt install mariadb-server php-mysql
@@ -230,12 +230,12 @@ al fine di realizzare le vostre tabelle in maniera visuale.
 </p>
 </div>
 
-<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[620px] xl:h-[100px] mt-[32px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
+<div className=" ml-[-65px] border-2 border-black w-[270px] h-[50px] xl:w-[620px] xl:h-[100px] mt-[32px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px]">
 <h3 className=" text-[30px] mt-[80px] xl:text-[47px] text-left md:text-[40px]">Installazione di PHPMyAdmin</h3>
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[680px] xl:w-[650px] xl:h-[730px] mt-40 ml-[-65px] xl:ml-[-100px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[930px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> 
+<div className=" border-2 border-black w-[300px] h-[680px] xl:w-[650px] xl:h-[730px] mt-40 ml-[-65px] xl:ml-[-100px] xl:mt-[200px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[1230px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> 
 Digitiamo il seguente comando per l'installazione di PHPMyAdmin:
 <br />
 <br />
@@ -260,7 +260,7 @@ Se abbiamo eseguito tutto correttamente dovrebbe apparire l'immagine seguente:
 </div>
 
 <div className=" border-2 border-transparent w-[300px] h-[130px] xl:w-[650px] xl:h-[130px] mt-28 ml-[-65px] xl:mt-[300px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[160px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> 
+<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]"> 
 Inserire utente e password (root e Vosta Password) per poter accedere alla pagina di gestione del data base MySQL:
 </p>
 </div>
@@ -269,8 +269,8 @@ Inserire utente e password (root e Vosta Password) per poter accedere alla pagin
 <img src="Cattura 5.png" alt="" />
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[1530px] xl:w-[650px] xl:h-[1890px] mt-40 ml-[-65px] xl:mt-[300px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[2200px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
+<div className=" border-2 border-black w-[300px] h-[1530px] xl:w-[650px] xl:h-[2690px] mt-40 ml-[-65px] xl:mt-[300px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[3200px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
 Bene, ora siete in  possesso di un Web server completo di data base sul vostro Raspberry pi zero 2; potete utilizzare php, 
 html, e python per realizzare pagine web al fine di interagire con dispositivi WiFi IoT di Vostra realizzazione ad esempio con il noto ESP8266 o ESP32.
 <br />
@@ -305,7 +305,7 @@ Di seguito potete osservare li raspberry presente nella rete wifi locale:
 </div>
 
 <div className=" border-2 border-transparent w-[300px] h-[200px] xl:w-[650px] xl:h-[300px] mt-40 ml-[-65px] xl:mt-[300px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[230px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
+<p className=" text-[16px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
 Se avete registrato il prodotto, nel menù Internet -
 Abilitazioni nella scheda Servizi Fritz!Box, trovate l'host name per poter accedere dall'esterno, di solito è un codice con una serie di lettere.myfritz.net :
 </p>
@@ -316,7 +316,7 @@ Abilitazioni nella scheda Servizi Fritz!Box, trovate l'host name per poter acced
 </div>
 
 <div className=" border-2 border-transparent w-[300px] h-[150px] xl:w-[650px] xl:h-[230px] mt-40 ml-[-65px] xl:mt-[300px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[230px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
+<p className=" text-[16px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
 Ora un'altro piccolo passaggio e saremo pronti; nella scheda  Abilitazioni porte, dobbiamo inserire l'indirizzo IP del Raspberry, come di seguito:
 </p>
 </div>
@@ -325,8 +325,8 @@ Ora un'altro piccolo passaggio e saremo pronti; nella scheda  Abilitazioni porte
 <img src="Cattura 2.png" alt="" />
 </div>
 
-<div className=" border-2 border-transparent w-[300px] h-[350px] xl:w-[650px] xl:h-[500px] mt-40 ml-[-65px] xl:mt-[300px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[530px]">
-<p className=" text-[20px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
+<div className=" border-2 border-black w-[300px] h-[350px] xl:w-[650px] xl:h-[700px] mt-40 ml-[-65px] xl:mt-[300px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:mt-[200px] md:h-[830px]">
+<p className=" text-[16px] mt-[-8px] xl:text-[32px] text-left md:text-[27px]"> 
 A questo punto se digitate l'host fornito da FritzBox nella barra degli indirizzi del browser, anche da un telefonino che non è connesso alla rete locale, potrete accedere al Vostro web server.
 <br />
 <br />
@@ -335,7 +335,7 @@ BENE questo è tutto, spero che la procedura sia stata utile e se avete un Modem
 </div>
 
 <footer className=" w-[100%] h-24  left-0 mt-[200px] absolute bg-[#1b4455] z-40">
-<h6 className=" scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
+<h6 className=" min-[1400px]:ml-[-1410px] scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
 </footer>
 
 
