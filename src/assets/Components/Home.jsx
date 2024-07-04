@@ -15,7 +15,7 @@ function Home(){
 <Navbar></Navbar>
 
 
-<div className="ml-[-900px] mt-[-253px] xl:mt-[-300px] xl:ml-[-100px] min-[1400px]:ml-[184px] md:ml-[-100px] fixed">
+<div className="ml-[-900px] mt-[-253px] xl:mt-[-100px] xl:ml-[-100px] min-[1400px]:ml-[184px] md:ml-[-100px] fixed">
 <MatrixCode></MatrixCode>
 </div>
 
