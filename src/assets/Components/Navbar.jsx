@@ -27,13 +27,13 @@ setMenu(prevMenu => prevMenu === "mt-[-200px]" ? "mt-[45px]" : "mt-[-200px]" )
 
 
 <ul className=" grid grid-cols-3 border-transparent mt-[30px] max-[1000px]:hidden bg-none z-40 fixed">
-<Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black xl:ml-[695px] min-[1400px]:ml-[1180px] min-[1400px]:mt-[-50px] xl:mt-[-50px]" to="/">
+<Link className="w-2 ml-[1200px] border-transparent text-black hover:text-black xl:ml-[695px] min-[1400px]:ml-[1180px] min-[1400px]:mt-[-50px] xl:mt-[-50px]  " to="/">
 <li className="text-[20px]">Home</li>
 </Link>
-<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px] min-[1400px]:ml-[730px] min-[1400px]:mt-[-50px] xl:mt-[-50px]" to="/Raspberry">
+<Link className="w-2 ml-[800px] border-transparent text-black hover:text-black xl:ml-[450px] min-[1400px]:ml-[730px] min-[1400px]:mt-[-50px] xl:mt-[-50px] min-[1351px]:ml-[420px]" to="/Raspberry">
 <li className="text-[20px]">Raspberry</li>
 </Link>
-<Link className="w-2 ml-[450px] border-transparent text-black hover:text-black xl:ml-[250px] min-[1400px]:ml-[370px] min-[1400px]:mt-[-50px] xl:mt-[-50px]" to="/Python">
+<Link className="w-2 ml-[450px] border-transparent text-black hover:text-black xl:ml-[250px] min-[1400px]:ml-[370px] min-[1400px]:mt-[-50px] xl:mt-[-50px] min-[1351px]:ml-[190px]" to="/Python">
 <li className="text-[20px]">Python</li>
 </Link>
 </ul>
