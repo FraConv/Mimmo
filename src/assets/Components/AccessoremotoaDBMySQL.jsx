@@ -13,7 +13,7 @@ function AccessoremotoaDBMySQL(){
 </div>
 
 
-<div className=" border-2 border-black w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[4250px]  md:mt-[200px]">
+<div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[1990px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[4250px]  md:mt-[200px]">
 <p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
 <br />
 <br />
@@ -76,7 +76,7 @@ procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni
 <img src="Cattura6.png" alt="" />
 </div>
 
-<div className=" border-2 border-black w-[300px] h-[200px] xl:w-[650px] xl:h-[180px] mt-44 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[450px]  md:mt-[200px]">
+<div className=" border-2 border-transparent w-[300px] h-[200px] xl:w-[650px] xl:h-[180px] mt-44 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[450px]  md:mt-[200px]">
 <p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuitivo evitando di 
 seguire la procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni.</p>
 </div>
@@ -85,7 +85,7 @@ seguire la procedura descritta sopra, selezionando i privilegi che riteniamo pi�
 <img src="creare-1666464546829.jpg" alt="" />
 </div>
 
-<div className=" border-2 border-black k w-[300px] h-[450px] xl:w-[650px] xl:h-[450px] mt-44 ml-[-65px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[890px]  md:mt-[200px]">
+<div className=" border-2 border-transparent k w-[300px] h-[450px] xl:w-[650px] xl:h-[450px] mt-44 ml-[-65px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[890px]  md:mt-[200px]">
 <p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Qui sotto ho inserito un semplice script in python che utilizza la libreria mysql connector 
 (da scaricare con pip install mysql-connector-python).
 <br />
@@ -94,7 +94,7 @@ Lo script fa una cosa semplicissima ma sintetizza in poche linee di codice l'acc
 tutte le tabelle che sono al suo interno; approfondendo l'argomento è possibile creare e cancellare tabelle, inserire dati nelle tabelle e quant'altro.</p>
 </div>
 
-<div className=" w-[300px] h-[520px] border-[4px] border-black bg-slate-700 mt-10 ml-[-65px] rounded-[80px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[400px]  md:h-[550px] md:ml-[-200px]">
+<div className=" w-[300px] h-[520px] border-[4px] border-transparent bg-slate-700 mt-10 ml-[-65px] rounded-[80px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[400px]  md:h-[550px] md:ml-[-200px]">
     <h5 className="text-left text-[10px] xl:pt-[70px] ml-7 pt-5 md:text-[11px] xl:ml-9 xl:text-[13px]">import mysql.connector
     <br />
     <br />
