@@ -66,10 +66,7 @@ nostra rete domestica semplicemente inserendo '192.168.1.%'.
 <br />
 <br />
 E' possibile controllare e modificare i privilegi dei singoli Account utenti anche da phpMyAdmin:
-<br />
-<br />
-Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuitivo evitando di seguire la
-procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni.</p>
+</p>
 </div>
 
 <div className=" w-[300px] h-[160px] ml-[-65px] mt-12 border-2 border-transparent xl:ml-[-100px] xl:w-[480px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px]">
