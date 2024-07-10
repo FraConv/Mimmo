@@ -14,11 +14,11 @@ function Python(){
 <Navbarunive></Navbarunive>
 
 <div className="w-[180px] h-[50px] xl:w-[330px] xl:h-[100px]">
-<h1 className=" md:text-[55px] md:mt-[-25px] text-[44px] mt-[-8px] xl:text-[70px] text-left">Python</h1>
+<h1 className=" text-[white] md:text-[55px] md:mt-[-25px] text-[44px] mt-[-8px] xl:text-[70px] text-left  xl:mt-[100px]">Python</h1>
 </div>
 
 <div className="w-[300px] h-[100px] xl:w-[480px] xl:h-[130px] mt-10 md:w-[400px]">
-<p className=" text-[20px] md:text-[27px] mt-[-8px] xl:text-[32px] text-left">Qui potete trovare tutte le guide su tutto quello che riguarda Python.</p>
+<p className="text-[white] text-[20px] md:text-[27px] mt-[-8px] xl:text-[32px] text-left">Qui potete trovare tutte le guide su tutto quello che riguarda Python.</p>
 </div>
 
 <div className="w-[100px] h-[100px] ">
@@ -26,6 +26,9 @@ function Python(){
 <Cards imgsvg="Mimmo logo.svg" titolo="Accesso remoto a DB MySQL" descrizione="Creare un accesso remoto al DB usando Python."></Cards>
 </Link>  
 </div>
+
+<div className=" xl:w-10 xl:h-[500px]"></div>
+
 
 <Footeruniv></Footeruniv>
 

@@ -9,12 +9,12 @@ function AccessoremotoaDBMySQL(){
         <Navbarunive></Navbarunive>
 
 <div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[160px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[350px] md:ml-[-200px] ">
-<h1 className=" text-[44px] mt-[-20px] xl:text-[72px] text-left md:text-[55px]">Accesso remoto a DB MySQL</h1>
+<h1 className="text-[white] text-[44px] mt-[-20px] xl:text-[72px] text-left md:text-[55px]">Accesso remoto a DB MySQL</h1>
 </div>
 
 
 <div className=" border-2 border-transparent w-[300px] h-[2100px] xl:w-[650px] xl:h-[2390px] mt-44 ml-[-65px] xl:ml-[-100px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[4250px]  min-[1400px]:h-[2395px] md:mt-[200px]">
-<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
+<p className="text-[white] text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Salve a tutti oggi vedremo come creare un accesso remoto al DB, e successivamente gestirlo con uno script in Python.
 <br />
 <br />
 Per accedere al DB residente nel RaspBerry da un dispositivo remoto è necessario creare un accesso che sia diverso
@@ -77,7 +77,7 @@ procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni
 </div>
 
 <div className=" border-2 border-transparent w-[300px] h-[200px] xl:w-[650px] xl:h-[180px] mt-44 ml-[-65px] xl:ml-[300px] xl:mt-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[450px]  md:mt-[200px]">
-<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuitivo evitando di 
+<p className="text-[white] text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Da phpMyAdmin è tuttavia possibile creare un nuovo Account user in modo intuitivo evitando di 
 seguire la procedura descritta sopra, selezionando i privilegi che riteniamo più opportuni.</p>
 </div>
 
@@ -86,7 +86,7 @@ seguire la procedura descritta sopra, selezionando i privilegi che riteniamo pi�
 </div>
 
 <div className=" border-2 border-transparent k w-[300px] h-[450px] xl:w-[650px] xl:h-[450px] mt-44 ml-[-65px] xl:ml-[300px] min-[375px]:ml-[-50px] md:w-[390px] md:ml-[-200px] md:h-[890px]  md:mt-[200px]">
-<p className=" text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Qui sotto ho inserito un semplice script in python che utilizza la libreria mysql connector 
+<p className="text-[white] text-[16px] mt-[-8px] xl:text-[25px] text-left md:text-[27px]">Qui sotto ho inserito un semplice script in python che utilizza la libreria mysql connector 
 (da scaricare con pip install mysql-connector-python).
 <br />
 <br />
@@ -95,7 +95,7 @@ tutte le tabelle che sono al suo interno; approfondendo l'argomento è possibile
 </div>
 
 <div className=" w-[300px] h-[520px] border-[4px] border-transparent bg-slate-700 mt-10 ml-[-65px] rounded-[80px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[400px]  md:h-[550px] md:ml-[-200px]">
-    <h5 className="text-left text-[10px] xl:pt-[70px] ml-7 pt-5 md:text-[11px] xl:ml-9 xl:text-[13px]">import mysql.connector
+    <h5 className=" text-[white] text-left text-[10px] xl:pt-[70px] ml-7 pt-5 md:text-[11px] xl:ml-9 xl:text-[13px]">import mysql.connector
     <br />
     <br />
 from mysql.connector import MySQLConnection, Error
@@ -151,8 +151,10 @@ def connect():
 if __name__ == '__main__':
     connect()</h5></div>
 
-<footer className=" w-[100%] h-24  left-0 mt-[200px] absolute bg-[#1b4455] z-40">
-<h6 className=" min-[1400px]:ml-[-1410px] scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
+    <div className=" xl:w-10 xl:h-[200px] h-[200px]"></div>
+
+<footer className=" w-[100%] h-24  left-0 mt-[30px] absolute bg-[#1b4455] z-40">
+<h6 className=" text-[white] min-[1400px]:ml-[-1410px] scale-90 mt-[36px] ml-[-110px] xl:ml-[-900px] xl:text-lg md:ml-[-400px] md:text-[19px]">Copyright © 2023 MimmoSoftweb</h6>
 <a className=" text-white hover:text-[#f9b65d] text-[14px] ml-[-170px] pt-[60px]  md:ml-[-505px] xl:ml-[-990px] min-[1400px]:ml-[-1503px]" href="https://www.iubenda.com/privacy-policy/13346282">Privacy Policy</a>
 <a className=" text-white hover:text-[#f9b65d] text-[14px] ml-[-190px] pt-[60px]" href="https://www.iubenda.com/privacy-policy/13346282/cookie-policy">Cookie Policy</a>
 </footer>
