@@ -13,7 +13,11 @@ function WebServerconRaspberry(){
 <h1 className="text-[white] text-[44px] mt-[-20px] xl:text-[72px] text-left md:text-[55px]">Web Server con Raspberry</h1>
 </div>
 
-<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[72px] xl:ml-[-100px] xl:mt-[100px] min-[375px]:ml-[-50px]  md:mt-[150px]  md:w-[390px] md:ml-[-200px]">
+<div className=" w-[230px] xl:w-[480px] h-[160px] ml-[-65px] mt-40 border-2 border-transparent xl:ml-[-120px] min-[375px]:ml-[-60px]  md:w-[390px] md:ml-[-210px]">
+<img src="f61IY5mYh8tL._SL1000_.jpg" alt="" />
+</div>
+
+<div className=" ml-[-65px] border-2 border-transparent w-[270px] h-[50px] xl:w-[650px] xl:h-[100px] mt-[72px] xl:ml-[-100px] xl:mt-[260px] min-[375px]:ml-[-50px]  md:mt-[150px]  md:w-[390px] md:ml-[-200px]">
 <h3 className="text-[white] md:text-[40px] text-[30px] mt-[80px] xl:text-[47px] text-left">Di cosa hai bisogno</h3>
 </div>
 

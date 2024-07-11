@@ -7,7 +7,7 @@ const MatrixCode = () => {
   useEffect(() => {
     const canvas = canvasRef.current;
     const ctx = canvas.getContext('2d');
-    canvas.width = "700";
+    canvas.width = "1900";
     canvas.height = "700";
     canvas.style = ""
 

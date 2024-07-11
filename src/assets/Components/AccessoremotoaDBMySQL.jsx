@@ -91,7 +91,7 @@ Lo script fa una cosa semplicissima ma sintetizza in poche linee di codice l'acc
 tutte le tabelle che sono al suo interno; approfondendo l'argomento è possibile creare e cancellare tabelle, inserire dati nelle tabelle e quant'altro.</p>
 </div>
 
-<div className=" w-[300px] h-[520px] border-[4px] border-transparent bg-slate-700 mt-10 ml-[-65px] rounded-[80px] xl:rounded-[100px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[400px]  md:h-[550px] md:ml-[-200px]">
+<div className=" w-[300px] h-[520px] border-[4px] border-transparent bg-slate-700 mt-10 ml-[-65px] rounded-[80px] xl:rounded-[120px] xl:ml-[300px] xl:w-[480px] xl:h-[750px] min-[375px]:ml-[-50px] md:w-[400px]  md:h-[550px] md:ml-[-200px]">
     <h5 className=" text-[white] text-left text-[10px] xl:pt-[70px] ml-7 pt-5 md:text-[11px] xl:ml-9 xl:text-[13px]">import mysql.connector
     <br />
     <br />
@@ -100,53 +100,53 @@ from mysql.connector import MySQLConnection, Error
 <br />
 def connect():
 <br />
-    conn = None
-    <br />
-    try:
-<br />
-<br />
-        conn = mysql.connector.connect(
-            <br />
-            host='192.168.x.x',
-            <br />
-            # database='MIO_DB',
-            <br />
-            user='username',
-            <br />
-            password='password',
-            <br />
-            port=3306
-            <br />
-        )
+    <div className="ml-[25px]">conn = None</div>
+   
+    <div className="ml-[25px]"> try:</div>
+
+    <div className="ml-[45px]"> conn = mysql.connector.connect(</div>
+       
+            <div className="ml-[70px]"> host='192.168.x.x',</div>
+
+            <div className="ml-[70px]"> # database='MIO_DB',</div>
+        
+            <div className="ml-[70px]"> user='username',</div>
+           
+            <div className="ml-[70px]"> password='password',</div>
+       
+            <div className="ml-[70px]">port=3306</div>
+       
+            <div className="ml-[45px]"> )</div>
+
+        <div className="ml-[45px]">if conn.is_connected():</div>
+      
+        <div className="ml-[45px]">print('Connected to MySQL database')</div>
+   
+        <div className="ml-[45px]"> cursor = conn.cursor()</div>
+    
+     <div className="ml-[45px]">cursor.execute("SHOW DATABASES")</div>
+           
+    
+            <div className="ml-[45px]">for x in cursor:</div>
+       
+            <div className="ml-[70px]"> print(x)</div>
+         
+            <div className="ml-[25px]">except Error as e:</div>
+
+            <div className="ml-[50px]">print(e)</div>
         <br />
-        if conn.is_connected():
-        <br />
-            print('Connected to MySQL database')
-            <br />
-            cursor = conn.cursor()
-            <br />
-            cursor.execute("SHOW DATABASES")
-            <br />
-            for x in cursor:
-            <br />
-                print(x)
-                <br />
-    except Error as e:
-    <br />
-        print(e)
-        <br />
-    finally:
-    <br />
-        if conn is not None and conn.is_connected():
-        <br />
-            print('Connection closed')
-            <br />
-            conn.close()
-            <br />
+        <div className="ml-[25px]"> finally:</div>
+   
+        <div className="ml-[50px]">if conn is not None and conn.is_connected():</div>
+       
+        <div className="ml-[70px]"> print('Connection closed')</div>
+            
+        <div className="ml-[70px]">conn.close()</div>
+    
             <br />
 
 if __name__ == '__main__':
-    connect()</h5></div>
+<div className="ml-[20px]">connect()</div></h5></div>
 
     <div className=" xl:w-10 xl:h-[200px] h-[200px]"></div>
 
