@@ -13,7 +13,7 @@ function Raspberry(){
 <Navbarunive></Navbarunive>
 
 <div className="  z-10w-[180px] h-[50px] xl:w-[330px] xl:h-[100px]">
-<h1 className=" text-[white] text-[44px] md:text-[55px] md:mt-[-25px] mt-[-8px] xl:text-[70px] xl:mt-[100px] text-left">Raspberry</h1>
+<h1 className=" text-[white] text-[44px] md:text-[55px] md:mt-[200px] mt-[200px] xl:text-[70px] xl:mt-[100px] text-left">Raspberry</h1>
 </div>
 
 <div className="w-[300px] h-[100px] xl:w-[480px] xl:h-[130px] mt-10 md:w-[400px]">
@@ -26,7 +26,7 @@ function Raspberry(){
 </Link>  
 </div>
 
-<div className=" xl:w-10 xl:h-[500px]"></div>
+<div className="mt-[800px] :w-[375px] h-[80px] bg-transparent]"></div>
 
 <Footeruniv></Footeruniv>
 
